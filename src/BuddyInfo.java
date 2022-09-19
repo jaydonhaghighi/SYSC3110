@@ -28,7 +28,6 @@ public class BuddyInfo {
 
 
     public static void main(String[] args) {
-        BuddyInfo buddyInfo = new BuddyInfo("Tom", "Ontario", "613-999");
-        System.out.println("Hello " + buddyInfo.getName() + "!");
+        BuddyInfo buddyInfo = new BuddyInfo("Tom", "Ontario", "613-999-9999");
     }
 }
