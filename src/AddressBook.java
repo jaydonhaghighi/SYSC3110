@@ -5,7 +5,6 @@ public class AddressBook {
 
     private List<BuddyInfo> addressBookList = new ArrayList<BuddyInfo>();
     public static void main(String[] args) {
-        List<BuddyInfo> addressBookList = new ArrayList<BuddyInfo>();
         BuddyInfo buddy = new BuddyInfo("Jaydon", "Carleton", "613-999-9999");
         AddressBook addressBook = new AddressBook();
         addressBook.addBuddy(buddy);
